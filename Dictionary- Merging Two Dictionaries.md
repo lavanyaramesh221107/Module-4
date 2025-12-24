@@ -10,9 +10,20 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+```
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
 
-Add code here
+def merge(dict1, dict2):
+    res = {**dict1, **dict2}
+    return res
+
+dict3 = merge(dict1, dict2)
+print(dict3)
+```
 
 ## Output
+<img width="936" height="126" alt="image" src="https://github.com/user-attachments/assets/96b30d4d-c670-41ec-8bb7-2d441167f6b2" />
+
 
 ## Result
